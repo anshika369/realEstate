@@ -554,15 +554,10 @@ const LandingPage = () => {
                 alt="Hexagon Digital Services"
                 className={s.designLogo}
               />
-              <span className="text-text-muted">Designed by</span>
-              <a
-                href="https://hexagondigitalservices.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={s.designLink}
-              >
-                Hexagon Digital Services
-              </a>
+              <span className="text-text-muted"> © {new Date().getFullYear()} Designed by</span>
+             <span className={s.designLink}>
+  Anshika Yadav
+</span>
             </div>
           </div>
         </div>
